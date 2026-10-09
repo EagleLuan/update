@@ -18,7 +18,7 @@ par = setup_parameters();
 X = init_state(par);
 
 dt    = 0.05;
-T_end = 0.03*2 * pi / par.n0;    
+T_end = 2 * pi / par.n0;    
 t     = 0:dt:T_end;
 
 log = struct();
